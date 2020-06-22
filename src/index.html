@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" href="./styles.css"
+  <script src="./webcomponents/webcomponents-loader.js"></script>
+  <script>
+    if (!window.customElements) { document.write('<!--'); }
+  </script>
+  <script src="./webcomponents/custom-elements-es5-adapter.js"></script>
+  <!-- ! DO NOT REMOVE THIS COMMENT, WE NEED ITS CLOSING MARKERS -->
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+  <!-- <h1><%= htmlWebpackPlugin.options.title %></h1> -->
+  <br>
+  <main id="entry-point"> 
+    <!-- Entry point for root of vaadin navigation router web components -->
+  </main>
+  <div id="ie-overlay" hidden>
+    <div id="ie-panel" hidden>
+      <div id="ie-error-banner">
+        <h2>An Error has occured</h2>
+      </div>
+      <div>
+        <h3><b>Internet Explorer detected!</b></h3>
+        <br/>
+        <p>Please view in a modern web browser as this web page requires modern JavaScript, thank you.</p>
+        <br/>
+          <a href="http://www.google.com/chrome" target="_blank" >
+            <img class="browser-icon" src="./assets/images/chrome.svg" alt="chrome">
+          </a>
+          <a href="https://www.microsoft.com/en-us/edge" target="_blank">
+            <img class="browser-icon" src="assets/images/Edge.png">
+          </a>
+          <a href="https://www.firefox.com" target="_blank">
+            <img class="browser-icon" src="assets/images/firefox.svg">
+          </a>
+          <a href="https://www.apple.com/safari" target="_blank">
+            <img class="browser-icon" src="assets/images/safari.png">
+          </a>
+          <p id="copyright">&copy;Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Check for Internet Explorer
+    var ua = window.navigator.userAgent;
+    var coverNode = document.getElementById('ie-panel')
+    var isIE = /MSIE|Trident/.test(ua);
+    if ( isIE ) {
+      document.getElementById('ie-overlay').hidden = false; // show warning panel
+      document.getElementById('ie-panel').hidden = false; // show warning panel
+      document.getElementById('entry-point').hidden = true; // hide main
+    }
+  </script>
+  <noscript>
+    ERROR<br>Javascript is OFF, please turn Javascript ON to view this website.<br>This website uses modern web components (polymer/Lit-Element) and makes uses of Javascript ES2016+ for pretty much everything.
+  </noscript>
+</body>
+</html>

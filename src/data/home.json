@@ -1,0 +1,14 @@
+  
+{
+  "title": "Welcome to Web Components!",
+  "introduction": "This base webpack config was built from scratch using web components (lit-element) and uses as few NPM packages as possible, currently supports polyfills for Internet Explorer, however, will be dropping IE support within a couple months, as Microsoft doesn't recognize IE as a browser",
+  "technologies": [
+    "Webpack",
+    "Lit-Element ( Web Components)",
+    "Vaadin-Router",
+    "Mobx for State",
+    "Vaadin Web Components",
+    "HTML/CSS",
+    "JS ECMASCRIPT 2016+"
+  ]
+}

@@ -1,0 +1,97 @@
+{ 
+  "education": 
+  [
+    {
+      "institution": "University of Calgary",
+      "accreditation": "Bachelor of Science (BSc), Computer Science",
+      "graduation": "December 2017",
+      "location": "Calgary, Alberta, Canada"
+    }
+  ],
+  "skills": 
+  [
+    {
+      "category": "Microsoft",
+      "items": "Windows, Windows Server, Active Directory, SCCM, Group Policy, Hyper-V, DHCP, DNS, SharePoint, PowerShell"
+    },
+    {
+      "category": "Amazon Web Services",
+      "items": "Identity Access Management (IAM), EC2, S3, Virtual Private Cloud (VPC), Route53, API Gateway, Lambda"
+    },
+    {
+      "category": "Programing Languages",
+      "items": "Windows, Windows Server, Active Directory, SCCM, Group Policy, Hyper-V, DHCP, DNS, SharePoint, PowerShell"
+    },
+    {
+      "category": "Web Technologies",
+      "items": "React.js, RESTful web services, Serverless, Bootstrap, NPM"
+    },
+    {
+      "category": "Databases",
+      "items": "JavaScript, HTML/CSS, JSX, Python"
+    },
+    {
+      "category": "Web Technologies",
+      "items": "JavaScript, HTML/CSS, JSX, Python"
+    },
+    {
+      "category": "Other Knowledge",
+      "items": "JavaScript, HTML/CSS, JSX, Python"
+    }
+  ],
+  "languages":
+  [
+    {
+    "language": "English",
+    "description": "English"
+    }
+  ],
+  "experience":
+  [
+    {
+      "company": "Alberta Health Services",
+      "role": "Customer Support II Technician",
+      "duration":"November 2018 - Present",
+      "Location":"Calgary, Alberta, Canada",
+      "description": 
+      [
+        "Resolved complex hardware and software technical issues relating to client, clinical, laboratory, medical grade hardware and various models of zebra label printers",
+        "Installed and maintained Windows and desktop software, service packs, patches, using Ivanti Lan desk software deployment suite",
+        "Troubleshooting of software and printing with regards to SCM, Clinibase, EDSP, Netcare, and various other obscure healthcare related software",
+        "Built, configured, and maintained hardware within Epic Connect Care back end, via Epic Text and Hyperspace GUI",
+        "Created high quality technical documentation for Connect Care for the deskside team",
+        "Used vFire ticketing system to log detailed notes",
+        "Managed assets inventory"
+      ]
+    },
+    {
+      "company": "University of Calgary",
+      "role": "Technical Solutions Analyst",
+      "duration" :"August 2014 - Sept 2018",
+      "Location":"Calgary, Alberta, Canada",
+      "description":
+      [
+        "Provided on-site and remote technical support to 4000+ faculty members, research and support staff, and students",
+        "Analysis, problem solving, and remediation relating to hardware, software, and network issues (Windows, Apple, and Linux)",
+        "Administration of Active Directory and Group Policy",
+        "Deployment and configuration of software using SCCM",
+        "Provisioning and maintenance of files shares",
+        "Front-line emergency response during 2016 ransomware attack",
+        "Thorough malware and virus detection and removal",
+        "Developed contextually aware protocols to ensure incidents were resolved (Service Now, Remedy)"
+      ]
+    },
+    {
+        "company": "Dell Computers",
+        "role": "I.T. Support I",
+        "duration" :"February 2009 – February 2012",
+        "Location":"Calgary, Alberta, Canada",
+        "description":
+        [
+          "Answered multiple phone lines in a timely and professional manner",
+          "Upheld quality assurance for customers, while educating them on the proper usages of Windows and Linux Ubuntu",
+          "Provided knowledgeable technical support for hardware and software related issues"
+        ]
+    }
+  ]  
+}
